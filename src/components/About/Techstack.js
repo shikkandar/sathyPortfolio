@@ -7,7 +7,7 @@ import {
   DiMongodb,
   DiGit,
 } from "react-icons/di";
-import { SiStrapi } from "react-icons/si";
+import { SiNextdotjs, SiStrapi } from "react-icons/si";
 
 function Techstack() {
   return (
