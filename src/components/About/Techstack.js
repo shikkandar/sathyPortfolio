@@ -7,7 +7,8 @@ import {
   DiMongodb,
   DiGit,
 } from "react-icons/di";
-import { SiNextdotjs, SiStrapi } from "react-icons/si";
+import { FaBootstrap, FaPython, FaSass } from "react-icons/fa";
+import { SiExpress, SiMui, SiNextdotjs, SiStrapi, SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -53,6 +54,45 @@ function Techstack() {
         md={2}
         className="tech-icons">
         <SiStrapi />
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <FaSass />
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <FaPython  />
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <SiExpress  />
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <SiTailwindcss />
+        
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <FaBootstrap/>
+        
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons">
+        <SiMui/>
+        
       </Col>
     </Row>
   );

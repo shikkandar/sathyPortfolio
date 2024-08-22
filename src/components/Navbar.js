@@ -42,6 +42,7 @@ function NavBar() {
             src={logo}
             className="img-fluid logo"
             alt="brand"
+           
           />
         </Navbar.Brand>
         <Navbar.Toggle
