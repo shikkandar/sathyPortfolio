@@ -12,6 +12,13 @@ import libraryManagement from "../../Assets/Projects/library.png";
 import iete from "../../Assets/Projects/iete.png";
 import weather from "../../Assets/Projects/weather.png";
 import calculator from "../../Assets/Projects/calc.png";
+import redux from "../../Assets/Projects/redux.png";
+import json_server from "../../Assets/Projects/json-server.png";
+import guvi_routing from "../../Assets/Projects/guvi-routing.png";
+import contact from "../../Assets/Projects/contact-manager.png";
+import react_todo from "../../Assets/Projects/react-todo-list.png";
+import age_calc from "../../Assets/Projects/age-calculator.png";
+import pagination from "../../Assets/Projects/pagination.png";
 
 function Projects() {
   return (
@@ -164,9 +171,86 @@ Implemented a scalable backend utilizing Node.js, Express, and MongoDB to manage
               imgPath={calculator}
               isBlog={false}
               title="Simple Calculator"
-              description="•	Designed an interactive web interface using HTML, CSS, and JavaScript to optimize navigation and user engagement.
+              description="Designed an interactive web interface using HTML, CSS, and JavaScript to optimize navigation and user engagement.
 •	Developed dynamic features like a CGPA calculator and content presentation for Anna University results and study materials, utilizing JavaScript and DOM manipulation for enhanced interactivity and functionality."
               demoLink="https://shik-calc.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={redux}
+              isBlog={false}
+              title="Redux-Cart"
+              description="Developed a dynamic shopping application with a responsive React UI, integrating a Redux-based cart system for efficient state management. Built a robust Node.js backend using Express, optimizing data flow and ensuring seamless MongoDB integration to enhance the user experience from product selection to checkout."
+              demoLink="https://shik-redux.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={json_server}
+              isBlog={false}
+              title="Json-Server"
+              description="Developed a JSON server application, implementing full CRUD operations to efficiently manage data. Designed a seamless interaction flow between the client and server, ensuring responsive and accurate data handling throughout the application."
+              demoLink="https://shik-json-server.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={guvi_routing}
+              isBlog={false}
+              title="Guvi-clone"
+              description="Cloned the GUVI website, replicating its structure and functionality, and implemented routing to ensure smooth navigation across pages. Focused on maintaining a consistent user experience while preserving the original site’s features."
+              demoLink="https://guvi-route.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={contact}
+              isBlog={false}
+              title="Mobile contact manager"
+              description="Developed a mobile contact manager application with full CRUD operations, allowing users to efficiently manage contacts. Focused on delivering a user-friendly interface and seamless data handling for adding, editing, deleting, and viewing contacts."
+              demoLink="https://shik-contact.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={react_todo}
+              isBlog={false}
+              title="React todo"
+              description="Developed a React-based to-do list application, enabling users to efficiently manage tasks with features for adding, editing, and deleting items. Focused on creating a clean and intuitive user interface for a seamless task management experience."
+              demoLink="https://shik-react-todo.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={age_calc}
+              isBlog={false}
+              title="Age calculator"
+              description="Developed an age calculator application, allowing users to easily compute their age based on their birthdate. Designed with a user-friendly interface to provide accurate results and enhance the overall user experience."
+              demoLink="https://shik-age-calc.netlify.app"
+            />
+          </Col>
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={pagination}
+              isBlog={false}
+              title="Pagination"
+              description="Developed a pagination feature for a website, enabling efficient navigation through large datasets by dividing content into manageable pages. Focused on creating a seamless user experience with intuitive page controls and smooth transitions between pages."
+              demoLink="https://shik-pagination.netlify.app"
             />
           </Col>
         </Row>
