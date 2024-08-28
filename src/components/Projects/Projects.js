@@ -19,6 +19,7 @@ import contact from "../../Assets/Projects/contact-manager.png";
 import react_todo from "../../Assets/Projects/react-todo-list.png";
 import age_calc from "../../Assets/Projects/age-calculator.png";
 import pagination from "../../Assets/Projects/pagination.png";
+import mern_todo from "../../Assets/Projects/mern-todo.png";
 
 function Projects() {
   return (
@@ -96,6 +97,18 @@ solutions"
             />
           </Col>
 
+          <Col
+            md={4}
+            className="project-card">
+            <ProjectCard
+              imgPath={mern_todo}
+              isBlog={false}
+              title="Mern-Todo"
+              description="A MERN stack to-do list application with full CRUD functionality, featuring task creation, updating, deletion, and marking as completed. The app offers a responsive design, intuitive UI, and seamless real-time synchronization across devices."
+              ghLink="https://github.com/shikkandar/mern-todo/tree/main"
+              demoLink="https://shik-mern-todo.netlify.app/"
+            />
+          </Col>
           <Col
             md={4}
             className="project-card">
