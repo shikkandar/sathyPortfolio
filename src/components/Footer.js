@@ -12,7 +12,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Shikkandar Badusha</h3>
+          <h3>Designed and Developed by Sathya Barani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SH</h3>
@@ -21,7 +21,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/shikkandar"
+                href="https://github.com/Sathyanagaraj03"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/shikkandar-baduhsa-5b2a96260/"
+                href="https://www.linkedin.com/in/sathya-barani-a-n-840899304/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
